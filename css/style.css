@@ -334,9 +334,28 @@ header h2 strong{
 }
 
 #consortium ul .media{
-    padding: 1.25rem 0;
-    border-bottom: 1px solid;
     display: block;
+}
+
+#consortium ul .media .bordure{
+    border-bottom: 1px solid;
+    padding: 1.25rem 0;
+}
+
+#consortium ul .media a{
+ color: var(--violet);
+ text-decoration: none;
+ display: flex;
+}
+
+#consortium ul .media >div{
+ display: flex;
+}
+
+
+#consortium ul .media a:hover, #consortium ul .media a:focus-visible{
+ color: var(--violetFonce);
+ border-bottom: 2px solid var(--violet);
 }
 
 

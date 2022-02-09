@@ -1,0 +1,707 @@
+:root{
+    --jauneOrange:#ff9e00; /*jaune orange*/
+    --beige:#FFF3E0;
+    --orange: #F57C00;
+    --violet: #7B007C;
+    --beigeOrange : #FFCC80;
+    --violetFonce : #350a35;
+    --rose: #FBDFFF;
+}
+/*******
+ * Icones
+ * ******/
+
+.centre-icon{
+    vertical-align: bottom;
+}
+
+.material-icons.md-30 { font-size: 30px; }
+
+/*******
+ * texte
+ * ****/
+.texteViolet{
+    color: var(--violet);
+}
+.texteJauneOrange{
+    color: var(--jauneOrange);
+}
+.justify{
+    text-align: justify;
+}
+
+.row {
+    min-height: 5rem;
+    height: 300px;
+}
+
+.contHeader .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.contHeader h1{
+    margin-left: 2rem;
+    color: var(--jauneOrange);
+}
+
+header{
+    display: block;
+    min-height: 300px;
+}
+
+.container {
+    align-items: center;
+  }
+
+  .main{
+      padding-top: 1.25rem;
+  }
+
+.slide__image{
+    height: 100%;
+    left: 30%;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(90deg,#350a35 0%, rgba(15, 66, 176, 0) 100%), url(../images/AntelopeCanyon2.jpg);
+}
+
+svg{
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.contHeader{
+    background-color: #350a35;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+    min-height: 300px;
+    color:#ff843d ;
+}
+
+
+.contHeader .row {
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-weight: bold;
+    color:var(--jauneOrange) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(205,159,144, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .navbar-light .navbar-toggler {
+    border-color: rgb(205,159,144);
+  } 
+
+.contNav{
+    background-color: rgba(0,0,0,0.4);
+}
+.contNav.opacity{       
+    position: fixed;
+    top:0;
+    z-index:1000;
+    width: 100%;
+    opacity: 0.8;
+    background-color: #350a35;
+    color:#cd9f90;
+
+  }
+
+/*
+Effet au niveau des blocs
+*/
+
+.diag1{
+    fill: var(--jauneOrange);
+    padding:0;
+    margin-bottom:-3px;
+    display:block;
+    background-color: var(--beige);
+}
+
+.diag2{
+    fill: var(--beige);
+    padding:0;
+    margin-bottom:-3px;
+    display:block;
+    background-color: var(--jauneOrange);   
+    
+}
+.diag3{
+    fill: var(--violetFonce);
+    padding:0;
+    margin-bottom:-3px;
+    display:block;
+    background-color:var(--beige);   
+    
+}
+.diag4{
+    fill: var(--beige);
+    padding:0;
+    margin-bottom:-3px;
+    display:block;
+    background-color:var(--violetFonce);     
+}
+.diag5{
+    fill: var(--jauneOrange) ;
+    padding:0;
+    margin-bottom:-3px;
+    display:block;
+    background-color:var(--beige);     
+}
+.diag6{
+    fill: var(--beige);
+    padding:0;
+    margin-bottom:-3px;
+    display:block;
+    background-color:var(--jauneOrange);     
+}
+
+.diag7{
+    fill: var(--violetFonce);
+    padding:0;
+    margin-bottom:-3px;
+    display:block;
+    background-color:var(--beige);     
+}
+
+.sombre{
+    padding: 3rem 0rem;
+    background-color:#350a35 ;
+    color: #cd9f90;
+}
+.sombre h2{
+    color: var(--jauneOrange);
+}
+
+.sombre h3{
+    color: var(--beigeOrange);
+}
+
+.orange{
+    padding: 3rem 0rem;
+    background-color:var(--jauneOrange) ;
+    color: var(--violetFonce);
+}
+
+.beigeOrange{
+    padding: 3rem 0rem;
+    background-color:var(--beigeOrange) ;
+    color: var(--violetFonce);
+}
+
+.premierParagraphe{
+    padding-top: 4rem;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header h2{
+    text-transform: none;
+    color: var(--beige);
+    text-align: left;
+    margin-left: 2rem;
+    font-weight: initial;
+}
+header h2 strong{
+    color: var(--jauneOrange);
+}
+
+
+.rose{
+    background-color: #ffe0e3;
+    color: var(--violetFonce);
+}
+.beige{
+    padding: 3rem 0rem;
+    background-color: var(--beige);
+    color: var(--violetFonce);
+}
+
+/**
+     Organized events
+*/
+#organizedEvents{
+    /*background-color: var(--jauneOrange);
+    padding: 3rem 0rem;  
+    color: var(--violetFonce);*/
+}
+
+.espaceLI{
+    padding-top: 2rem;
+
+}
+.espaceLI>ul{
+    color: var(--violet);
+}
+
+/**
+     Projet
+*/
+.detail-projet{
+    padding-left: 0;
+}
+
+.projet-annee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-projet .projet-annee{
+    font-weight: bold;
+}
+.detail-projet li{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.detail-projet li .projet-description{
+    /*font-weight: bold;*/
+    color: var(--violet);
+    text-align: justify;
+}
+.detail-projet li .projet-description span{
+    display: initial;
+    font-weight: initial;
+}
+.detail-projet li span{
+    display: block;
+}
+
+.resume{
+    margin-bottom: 1rem;
+}
+
+/* Organized Events */
+
+.motsCles{
+    font-style: italic;
+}
+
+#organizedEvents h4{
+    margin: 2.5rem;
+}
+
+#organizedEvents ul{
+    list-style-type: none;
+}
+#organizedEvents ul li i{
+    position: relative;
+    top: 6px;
+    margin-right: 5px;
+}
+
+#organizedEvents ul li .feminin{
+    color: #9c5886;
+}
+
+/* Consortium */
+
+#consortium ul li img{
+    max-height: 150px;
+    padding-left: 0.9375rem;
+}
+
+#consortium .media-body{
+    padding-left: 0.9375rem;
+}
+#consortium .media-body p{
+    display: flex;
+}
+#consortium .media-body p i{
+    margin-right: 5px;
+}
+#consortium ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#consortium ul .media{
+    padding: 1.25rem 0;
+    border-bottom: 1px solid;
+    display: block;
+}
+
+
+
+/* PUBLICATIONS */
+
+.publications{
+    min-height: 635px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #350a35 0%, rgba(15, 66, 176, 0) 100%), linear-gradient(180deg, rgba(15, 66, 176, 0) 0%, #350a35 100%), url(../images/coucherSoleil.webp);
+}
+
+.publications h3{
+    font-size: 21px;
+}
+
+.listePublications {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.listePublications li{
+    display: block;
+    /* flex: 0 0 24%; */
+    flex: 0 0 100%;
+    min-height: 100px;
+    background-color: var(--beige);
+    margin: 10px 5px;
+    padding:10px;
+    box-shadow: 0 12px 17px 2px rgba(255,227,227,0.20);
+}
+
+.listePublications li:hover{
+    /*box-shadow: 0 12px 17px 2px var(--jauneOrange);*/
+    box-shadow: 0 0 5px .3rem var(--jauneOrange);
+}
+
+.listePublications li a{
+    text-decoration: none;
+}
+
+.titrePublication{
+    display: block;
+    color: var(--violetFonce);
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+.auteursPublication{
+    display: block;
+    color: var(--violet);
+    font-size: 14px; 
+    padding-bottom: 10px;
+    display: flex;
+}
+.auteursPublication i{
+    font-size: 12px;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.journalPublication{
+    display: block;
+    font-size: 12px;
+    color: var(--violet);
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.anneePublication{
+    display: block;
+    font-size: 12px;
+    color: var(--violet);
+    display: flex;
+}
+.anneePublication i{
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.journalPublication i{
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.datePublication{
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic ;
+}
+
+/* Codes */
+
+#codes{
+    min-height: 500px;
+    /*background-image: linear-gradient(180deg, #350a35 8%, #e5bcc4 12%);*/
+    color: var(--violetFonce);
+}
+
+#codes h2{
+    color: var(--violetFonce);
+}
+
+#codes .titreMatière{
+    font-weight: bold;
+    color: #861828;
+}
+
+#codes .listeMatieres{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#codes .listeMatieres > li{
+    margin-bottom: 1rem;
+}
+
+.listeCommun {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+
+.listeCommun li{
+    display: block;
+    /* flex: 0 0 24%; */
+    /*flex: 0 0 100%;*/
+    width: 100%;
+    min-height: 100px;
+    background-color: var(--violetFonce);
+    box-shadow: 0 12px 17px 2px rgba(255,227,227,0.20);
+    margin: 10px 5px;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/*.listeCodes li:hover{
+    box-shadow: 0 0 5px .3rem var(--jauneOrange);
+}*/
+
+.listeCommun li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.listeCommun li>div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titreCode{
+    color: var(--jauneOrange);
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+.auteursCode{
+    color: var(--beigeOrange);
+    font-size: 14px; 
+    padding-bottom: 10px;
+}
+.auteursCode i{
+    font-size: 12px;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.resumeCode{
+    font-size: 12px;
+    color: var(--beigeOrange);
+    padding-bottom: 10px;
+}
+
+.anneeCode{
+    font-size: 12px;
+    color: var(--beigeOrange);
+}
+.anneeCode i{
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.resumeCode i{
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.dateCode{
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic ;
+}
+
+
+.infosCommun{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    padding: 1rem;
+    background-color: var(--jauneOrange);
+    color: var(--violet);
+    
+}
+
+.download:hover{
+    box-shadow: 0 0 5px .3rem var(--jauneOrange);
+    color: var(--violetFonce);
+    font-weight: bold;
+}
+
+/* DATASETS */
+
+#datasets{
+    /*background-color: var(--jauneOrange);
+    color: var(--violetFonce);
+    padding-bottom: 50px;*/
+}
+
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background-color: #195219;
+    border-radius: 2.75rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    vertical-align: middle;
+}
+
+#logos{
+    background-color: var(--beige);
+    min-height: 130px;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+#logos img{
+   /* max-height: 120px;*/
+    max-width: 100px;
+    /* float: right; */
+
+}
+
+/* FOOTER */
+
+footer{
+    min-height: 150px;
+    background-color: var(--violetFonce);
+    color: var(--beige) ;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+footer i{
+    position: relative;
+    top: 6px;
+    margin-right: 5px;
+}
+footer h2{
+    text-align: left;
+}
+
+footer a{
+    color: var(--beige);
+}
+
+footer a:hover{
+    color: var(--jauneOrange);
+}
+
+
+
+
+
+
+@media(min-width: 576px){
+    #consortium ul li img{
+        padding-left: 0rem;
+    }
+    
+    #consortium ul .media{
+        display: flex;
+    }
+    .listePublications li{
+        flex: 0 0 48%;
+    }
+    #enseignements{
+        padding-top: 17px;
+    }
+    
+}
+@media(min-width: 768px){
+    .detail-projet{
+        padding-left: initial;
+    }
+    .listePublications li{
+        flex: 0 0 31%;
+    }
+    #logos img{
+        max-width: 200px;
+    }
+}
+@media(min-width: 992px){
+    .detail-projet{
+        padding-left: initial;
+    }
+    .listePublications li{
+        flex: 0 0 23%;
+    }
+    .listePublications {
+        padding-left: 0;
+    }
+    #enseignements .listeMatieres{
+        padding-left: initial;
+    }
+    #enseignements{
+        padding-top: 52px;
+    }
+}
+@media(min-width: 1024px){
+    #enseignements{
+        padding-top: 45px;
+    }
+}
